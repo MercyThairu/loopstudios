@@ -1,0 +1,148 @@
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow:auto;
+    padding: 0 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+
+.flex-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:auto 1fr;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    gap: 20px;
+}
+
+.grid-2{
+    grid-template:auto,1fr ;
+   
+}
+
+.grid-4{
+    display:grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(2,1fr) ;
+    grid-gap:10px;
+}
+
+
+/*TEXT SIZES*/
+.lead{
+    font-size:15px;
+}
+
+.sm{
+   font-size:1rem ;
+}
+
+.md{
+   font-size: 2rem;
+}
+
+.lg{
+   font-size:3rem ;
+}
+
+.xl{
+   font-size:4rem ;
+}
+
+
+/*MARGINS*/
+.my-1{
+    margin: 1rem 0;
+}
+
+.my-2{
+    margin: 1.5rem 0;
+}
+
+.my-3{
+    margin: 2rem 0;
+}
+
+.my-4{
+    margin: 3rem 0;
+}
+
+.my-5{
+    margin: 4rem 0;
+}
+
+.m-1{
+    margin: 1rem;
+}
+
+.m-2{
+    margin: 1.5rem;
+}
+
+.m-3{
+    margin: 2rem;
+}
+
+.m-4{
+    margin: 3rem;
+}
+
+.m-5{
+    margin: 4rem;
+}
+
+/*PADDING*/
+.py-1{
+    padding: 1rem 0;
+}
+
+.py-2{
+    padding: 1.5rem 0;
+}
+
+.py-3{
+    padding: 2rem 0;
+}
+
+.py-4{
+    padding: 3rem 0;
+}
+
+.py-5{
+    padding: 4rem 0;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.p-2{
+    padding: 1.5rem;
+}
+
+.p-3{
+    padding: 2rem;
+}
+
+.p-4{
+    padding: 3rem;
+}
+
+.p-5{
+    padding: 4rem;
+}
+
